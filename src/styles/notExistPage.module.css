@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex-direction: column;
+}
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 25px;
+}
+.btn {
+  display: block;
+  background-color: #80d4ff;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.btn:hover {
+  background-color: #40cfff;
+}
